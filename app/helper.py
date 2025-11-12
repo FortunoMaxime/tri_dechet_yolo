@@ -64,7 +64,7 @@ def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=N
     st_frame.image(res_plotted,
                    caption='Detected Video',
                    channels="BGR",
-                   use_column_width=True
+                   use_container_width=True
                    )
 
 
